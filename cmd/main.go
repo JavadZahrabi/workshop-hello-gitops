@@ -28,6 +28,6 @@ func handler(w http.ResponseWriter, r *http.Request){
 	resp := fmt.Sprintf("Hello from %s", host)
 	_, err = w.Write([]byte(resp))
 	if err != nil {
-		log.Panicf("not able to write http output test: %s", err)
+		log.Panicf("not able to write http output test2: %s", err)
 	}
 }
