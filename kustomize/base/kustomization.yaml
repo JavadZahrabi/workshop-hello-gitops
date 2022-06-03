@@ -8,4 +8,4 @@ namespace: hello-gitops
 images:
 - name: hello-gitops
   newName: javadza/hello-gitops
-  newTag: 8913f3a69c3dbc6c5f5f60f6f93ffa83b1a36d6c
+  newTag: 32e7c2bc417be62f585b593a8336d2a7160ee4f0
